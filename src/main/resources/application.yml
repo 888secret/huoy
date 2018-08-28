@@ -6,19 +6,19 @@ spring:
     proxy-target-class: true
 
   #datasource
-  datasource:
-    druid:
-      driver-class-name:
-      username:
-      password:
-      url:
-      initial-size: 1
-      max-active: 20
-      min-idle: 1
-      max-wait: 60000
+  #datasource:
+  # druid:
+  #    driver-class-name:
+  #    username:
+   #   password:
+   #   url:
+   #   initial-size: 1
+   #   max-active: 20
+   #   min-idle: 1
+   #   max-wait: 60000
 
 #mybatis
-mybatis-plus:
-  mapper-locations: classpath*:/mapper/**Mapper.xml
+#mybatis-plus:
+ #mapper-locations: classpath*:/mapper/**Mapper.xml
   #实体扫描，多个package用逗号或者分号分隔
-  typeAliasesPackage: 
+ # typeAliasesPackage:
