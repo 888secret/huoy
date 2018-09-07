@@ -9,18 +9,40 @@ import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.po.TableFill;
 import com.baomidou.mybatisplus.generator.config.rules.DbType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
+import com.htht.huoy.module.generator.common.BaseExceptionHandleController;
+import com.htht.huoy.module.generator.common.Result;
+import com.htht.huoy.module.generator.common.ResultUtil;
+import com.htht.huoy.module.generator.model.Table;
+import com.htht.huoy.module.generator.service.IGeneratorService;
 
 import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-public class GeneratorController {
+@RequestMapping("/generator")
+public class GeneratorController extends BaseExceptionHandleController {
 
+    @Autowired
+    private IGeneratorService generatorService;
+
+    @RequestMapping("/count")
+    public Result getTableCount(){
+        int count=generatorService.getTableCount();
+        return ResultUtil.success(count);
+    }
+
+    @RequestMapping("/list")
+    public List<Table> getTableList(int offset,int limit){
+        return generatorService.getTableList(offset,limit);
+    }
+    @RequestMapping("/genCode")
     public void genCode(String moduleName,String tablePrefix,String tableName){
         Configuration config=getConfig();
         List<TableFill> tableFillList=new ArrayList<>();
@@ -79,5 +101,6 @@ public class GeneratorController {
         } catch (ConfigurationException e) {
             e.printStackTrace();
         }
+        return null;
     }
 }
