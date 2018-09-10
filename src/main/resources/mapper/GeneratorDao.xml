@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.htht.huoy.module.generator.dao.IGeneratorDao">
+
+    <resultMap id="BaseResultMap" type="com.htht.huoy.module.generator.model.Table">
+        <result column="table_name" property="tableName"/>
+        <result column="comments" property="tableComments"/>
+    </resultMap>
+
+    <select id="getTableCount" resultType="Integer">
+        select count(*) from user_tables
+    </select>
+
+    <select id="getTableList" resultMap="BaseResultMap">
+        select a.table_name,b.comments from user_tables a left join user_tab_comments b on a.table_name=b.table_name where a.table_name like CONCAT(CONCAT('%', #{name}), '%')
+    </select>
+</mapper>

@@ -1,0 +1,171 @@
+[WARN][2018-09-06 15:17:39] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-06 15:17:42] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-06 15:21:08] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-06 15:21:12] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-06 15:23:20] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-06 15:23:22] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-06 15:43:53] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-06 15:43:55] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-06 15:43:56] org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'generatorService': Unsatisfied dependency expressed through field 'generatorDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[ERROR][2018-09-06 15:43:56] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field generatorDao in com.htht.huoy.module.generator.service.impl.GeneratorService required a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' in your configuration.
+ 
+[WARN][2018-09-06 15:47:14] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-06 15:47:16] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-06 15:47:17] org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'generatorService': Unsatisfied dependency expressed through field 'generatorDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[ERROR][2018-09-06 15:47:17] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field generatorDao in com.htht.huoy.module.generator.service.impl.GeneratorService required a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' in your configuration.
+ 
+[WARN][2018-09-06 15:50:07] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-06 15:50:08] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-06 15:50:10] org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'generatorService': Unsatisfied dependency expressed through field 'generatorDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[ERROR][2018-09-06 15:50:10] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field generatorDao in com.htht.huoy.module.generator.service.impl.GeneratorService required a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' in your configuration.
+ 
+[WARN][2018-09-06 15:58:01] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-06 15:58:02] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-06 15:58:03] org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'generatorService': Unsatisfied dependency expressed through field 'generatorDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[ERROR][2018-09-06 15:58:03] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field generatorDao in com.htht.huoy.module.generator.service.impl.GeneratorService required a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' in your configuration.
+ 
+[WARN][2018-09-06 16:04:28] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-06 16:04:30] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-06 16:04:31] org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'generatorService': Unsatisfied dependency expressed through field 'generatorDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[ERROR][2018-09-06 16:04:31] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field generatorDao in com.htht.huoy.module.generator.service.impl.GeneratorService required a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' in your configuration.
+ 
+[WARN][2018-09-06 16:07:36] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-06 16:07:38] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-06 16:07:39] org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'generatorService': Unsatisfied dependency expressed through field 'generatorDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[ERROR][2018-09-06 16:07:39] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field generatorDao in com.htht.huoy.module.generator.service.impl.GeneratorService required a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' in your configuration.
+ 
+[WARN][2018-09-06 16:11:17] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-06 16:11:19] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-06 16:11:20] org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'generatorService': Unsatisfied dependency expressed through field 'generatorDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[ERROR][2018-09-06 16:11:20] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field generatorDao in com.htht.huoy.module.generator.service.impl.GeneratorService required a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.htht.huoy.module.generator.dao.GeneratorDao' in your configuration.
+ 
+[ERROR][2018-09-06 16:13:47] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:21:25] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:24:05] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:27:09] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:29:10] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:30:11] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:34:30] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:38:54] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:40:20] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:42:08] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:44:21] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:45:15] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-06 16:51:21] org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:239) Skipping MapperFactoryBean with name 'IGeneratorDao' and 'com.htht.huoy.module.generator.dao.IGeneratorDao' mapperInterface. Bean already defined with the same name! 
+[WARN][2018-09-06 16:51:21] org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:239) Skipping MapperFactoryBean with name 'IGeneratorService' and 'com.htht.huoy.module.generator.service.IGeneratorService' mapperInterface. Bean already defined with the same name! 
+[WARN][2018-09-06 16:51:21] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy.module]' package. Please check your configuration. 
+[ERROR][2018-09-06 16:51:23] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:52:29] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:55:18] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:55:59] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:57:35] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:58:09] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 16:59:11] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 17:11:04] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 17:14:40] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 17:31:08] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 17:33:30] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-06 17:39:15] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 14:56:54] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 15:22:55] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 15:24:45] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 15:26:10] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 15:34:42] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 15:39:44] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 15:41:18] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 15:46:44] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 15:51:25] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 16:26:42] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 16:29:02] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[ERROR][2018-09-07 16:32:46] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 

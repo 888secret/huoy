@@ -27,11 +27,12 @@
         <commons-lang.version>3.3.2</commons-lang.version>
         <commons-fileupload.version>1.3.1</commons-fileupload.version>
         <spring-log4j.version>1.3.5.RELEASE</spring-log4j.version>
-        <druid.version>1.0.26</druid.version>
+        <druid.version>1.0.27</druid.version>
         <ojdbc6.version>12.1.0.1-atlassian-hosted</ojdbc6.version>
         <fastjson.version>1.2.49</fastjson.version>
         <mybatisplus-spring-boot-starter.version>1.0.2</mybatisplus-spring-boot-starter.version>
         <mybatis-plus.version>2.3</mybatis-plus.version>
+        <commons.configuration.version>1.10</commons.configuration.version>
     </properties>
 
     <dependencies>
@@ -57,6 +58,11 @@
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
             <version>${commons-fileupload.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>${commons.configuration.version}</version>
         </dependency>
 
         <!--SpringBoot Starter-->
@@ -117,6 +123,18 @@
             <version>${mybatis-plus.version}</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.velocity/velocity -->
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.1.2</version>
+        </dependency>
 
     </dependencies>
 

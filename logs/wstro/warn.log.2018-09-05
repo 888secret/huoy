@@ -1,0 +1,10 @@
+[WARN][2018-09-05 17:33:19] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-05 17:33:21] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-05 17:53:33] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-05 17:53:35] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-05 18:08:19] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-05 18:08:21] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-05 18:33:49] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-05 18:33:50] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
+[WARN][2018-09-05 18:38:38] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) No MyBatis mapper was found in '[com.htht.huoy]' package. Please check your configuration. 
+[ERROR][2018-09-05 18:38:40] com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:855) testWhileIdle is true, validationQuery not set 
