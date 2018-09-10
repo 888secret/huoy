@@ -19,3 +19,9 @@ spring:
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Dao.xml
   typeAliasesPackage: com.htht.huoy.module
+
+pagehelper:
+  helper-dialect: oracle
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql

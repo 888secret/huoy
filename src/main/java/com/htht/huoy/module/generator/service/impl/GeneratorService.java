@@ -1,7 +1,7 @@
 package com.htht.huoy.module.generator.service.impl;
 
-import com.baomidou.mybatisplus.plugins.Page;
-import com.baomidou.mybatisplus.plugins.pagination.PageHelper;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.htht.huoy.module.generator.dao.IGeneratorDao;
 import com.htht.huoy.module.generator.model.Table;
 import com.htht.huoy.module.generator.service.IGeneratorService;
@@ -18,10 +18,11 @@ public class GeneratorService implements IGeneratorService {
     private IGeneratorDao generatorDao;
 
     @Override
-    public Page<Table> getTableList(String name, int pageNum, int pageSize) {
-        Page<Table> page=PageHelper.startPage(pageNum,pageSize);
-        generatorDao.getTableList(name);
-        return page;
+    public PageInfo<Table> getTableList(int pageNum, int pageSize,String name) {
+        PageHelper.startPage(pageNum,pageSize);
+        List<Table> list=generatorDao.getTableList(name);
+        PageInfo<Table> pageInfo=new PageInfo<>(list);
+        return pageInfo;
     }
 
     @Override
