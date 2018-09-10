@@ -1,24 +1,19 @@
 server:
-  port: 8080
+  port: 80
 
 spring:
   aop:
     proxy-target-class: true
 
   #datasource
-  #datasource:
-  # druid:
-  #    driver-class-name:
-  #    username:
-   #   password:
-   #   url:
-   #   initial-size: 1
-   #   max-active: 20
-   #   min-idle: 1
-   #   max-wait: 60000
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:ORCL
+    username: buoyUser
+    password: PW123456
 
 #mybatis
-#mybatis-plus:
- #mapper-locations: classpath*:/mapper/**Mapper.xml
-  #实体扫描，多个package用逗号或者分号分隔
- # typeAliasesPackage:
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+  typeAliasesPackage: com.htht.huoy.module
