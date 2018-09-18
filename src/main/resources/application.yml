@@ -13,6 +13,11 @@ spring:
     username: buoyUser
     password: PW123456
 
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/hyjc
+      #uri: mongodb://name:pass@localhost:27017/dbname
+
 
 
 #mybatis
@@ -25,3 +30,5 @@ pagehelper:
   reasonable: true
   support-methods-arguments: true
   params: count=countSql
+
+
