@@ -16,6 +16,12 @@ public class ResultUtil {
         return success(null);
     }
 
+    public static Result error(){
+        Result result=new Result();
+        result.setCode(1);
+        result.setMsg(ERROR);
+        return result;
+    }
     public static Result error(Integer code,String msg){
         Result result=new Result();
         result.setCode(code);
