@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.htht.huoy.module.hyjc.dao.IFileSystemDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.htht.huoy.module.hyjc.model.FileSystem">
+        <id column="ID" property="id" />
+        <result column="PARENT_ID" property="parentId" />
+        <result column="FILE_PATH" property="filePath" />
+        <result column="FILE_NAME" property="fileName" />
+        <result column="IS_FILE" property="isFile" />
+        <result column="USER_ID" property="userId" />
+        <result column="PROJECT_ID" property="projectId" />
+        <result column="IS_DELETE" property="isDelete" />
+        <result column="IS_LOCK" property="isLock" />
+        <result column="FILE_TYPE" property="fileType" />
+        <result column="FILE_SIZE" property="fileSize" />
+        <result column="NODE_NAME" property="nodeName" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="FOLDER_NAME" property="folderName" />
+        <result column="IS_EDIT" property="isEdit" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, PARENT_ID, FILE_PATH, FILE_NAME, IS_FILE, USER_ID, PROJECT_ID, IS_DELETE, IS_LOCK, FILE_TYPE, FILE_SIZE, NODE_NAME, CREATE_TIME, FOLDER_NAME, IS_EDIT
+    </sql>
+
+</mapper>
