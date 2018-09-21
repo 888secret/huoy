@@ -10,10 +10,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: oracle.jdbc.driver.OracleDriver
     url: jdbc:oracle:thin:@localhost:1521:orcl
-<<<<<<< HEAD
-    username: huoyUser
-    password: PW123456
-=======
+
     username: hyjc
     password: hyjc
 
@@ -21,7 +18,6 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/hyjc
       #uri: mongodb://name:pass@localhost:27017/dbname
->>>>>>> 45f89a48ae22d098541fca077b08d725304bd4ab
 
 
 
@@ -35,5 +31,9 @@ pagehelper:
   reasonable: true
   support-methods-arguments: true
   params: count=countSql
+
+logging:
+  level:
+    com.htht.huoy.module.file.dao: debug
 
 
