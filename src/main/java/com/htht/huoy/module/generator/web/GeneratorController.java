@@ -9,7 +9,6 @@ import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.po.TableFill;
 import com.baomidou.mybatisplus.generator.config.rules.DbType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-import com.htht.huoy.module.generator.common.BaseExceptionHandleController;
 import com.htht.huoy.module.generator.common.Result;
 import com.htht.huoy.module.generator.common.ResultUtil;
 import com.htht.huoy.module.generator.service.IGeneratorService;
@@ -28,7 +27,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/generator")
-public class GeneratorController extends BaseExceptionHandleController {
+public class GeneratorController {
 
     @Autowired
     private IGeneratorService generatorService;
