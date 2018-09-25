@@ -5,6 +5,13 @@ import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.DateFormat;
+import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.Field;
+import org.springframework.data.elasticsearch.annotations.FieldIndex;
+import org.springframework.data.elasticsearch.annotations.FieldType;
+
 import java.util.Date;
 
 /**
@@ -15,7 +22,9 @@ import java.util.Date;
  * @author wjx
  * @since 2018-09-20
  */
+
 @TableName("TB_FILE_INFO")
+@Document(indexName = "hyjc",type="fileInfo",shards = 5,replicas = 1,indexStoreType = "fs",refreshInterval = "-1")
 public class FileInfo{
 
     private static final long serialVersionUID = 1L;
@@ -24,6 +33,7 @@ public class FileInfo{
      * 文件主键ID
      */
     @TableId(value = "FILE_ID",type = IdType.UUID)
+    @Id
     private String fileId;
     /**
      * 文件夹ID
@@ -64,7 +74,13 @@ public class FileInfo{
      * 更新时间
      */
     @TableField("UPDATE_TIME")
+    @Field(format = DateFormat.date_time,index = FieldIndex.no,store = true,type = FieldType.Object)
     private Date updateTime;
+    /**
+     * 文档内容
+     */
+    @TableField(exist=false)
+    private String content;
 
 
     public String getFileId() {
@@ -139,6 +155,13 @@ public class FileInfo{
         this.updateTime = updateTime;
     }
 
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
 
     @Override
     public String toString() {

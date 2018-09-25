@@ -37,7 +37,7 @@ public class FileInfoController extends CommonController {
     private IFileInfoService fileInfoService;
 
     @RequestMapping("/upload")
-    public Result upload(@RequestParam("multipartfiles")MultipartFile[] files, @RequestParam("id") String folderId){
+    public Result upload(@RequestParam("multipartfiles")MultipartFile[] files,String folderId){
         String path=(Thread.currentThread().getContextClassLoader().getResource("").getPath()).substring(1)+"upload";
         //遍历文件
         try {
@@ -100,8 +100,9 @@ public class FileInfoController extends CommonController {
 
                             break;
                     }
-                    //向mongodb中插入文件记录
-
+                    //向elasticsearch插入记录
+                    fileInfo.setContent(content);
+                    fileInfoService.saveFileInfo(fileInfo);
 
                 }
             }
@@ -119,11 +120,6 @@ public class FileInfoController extends CommonController {
         List<FileInfo> list=fileInfoService.selectList(wrapper);
         return ResultUtil.success(list);
 
-    }
-
-    private String fileToString(String path){
-        //如果文件格式为pdf/world/txt的文件，读取文本，保存在数据库
-        return null;
     }
 
 }

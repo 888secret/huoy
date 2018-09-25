@@ -200,6 +200,7 @@ public class FileFormat {
                 }
             }
         }
+        return content.toString();
     }
 
     /**
