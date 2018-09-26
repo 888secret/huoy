@@ -17,7 +17,12 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/hyjc
       #uri: mongodb://name:pass@localhost:27017/dbname
-
+    elasticsearch:
+          cluster-name: elasticsearch
+          cluster-nodes: 127.0.0.1:9300
+          local: false
+          repositories:
+            enabled: true
 
 
 #mybatis
